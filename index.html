@@ -18,13 +18,13 @@
 		</header>
 		<div id="game">
 			<section id="monster" class="container">
-				<h2>Monster Health {{monsterHealth}}%</h2>
+				<h2>Monster Health <span v-if="monsterHealAboweZero">{{monsterHealth}}%</span></h2>
 				<div class="healthbar">
 					<div class="healthbar__value" :style="monsterBarStyle"></div>
 				</div>
 			</section>
 			<section id="player" class="container">
-				<h2>Your Health {{playerHealth}}%</h2>
+				<h2>Your Health <span v-if="palyerHealAboweZero">{{playerHealth}}%</h2>
 				<div class="healthbar">
 					<div class="healthbar__value" :style="playerBarStyle"></div>
 				</div>
@@ -34,7 +34,7 @@
 				<button :disabled="useSpecialAttack" @click="specialAttackMonster">
 					SPECIAL ATTACK
 				</button>
-				<button @click="healPlayer">HEAL</button>
+				<button :disabled="useHeal" @click="healPlayer">HEAL</button>
 				<button @click="surrender">SURRENDER</button>
 			</section>
 			<section class="container" v-if="winner">
@@ -56,8 +56,8 @@
 							heals himself for
 							<span class="log--heal">{{log.actionValue}}</span></span
 						>
-						<span v-else
-							> use {{log.actionType}} and deals
+						<span v-else>
+							use {{log.actionType}} and deals
 							<span class="log--damage">{{log.actionValue}}</span></span
 						>
 					</li>

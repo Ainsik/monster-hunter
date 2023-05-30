@@ -73,6 +73,15 @@ const app = Vue.createApp({
 		useSpecialAttack() {
 			return this.round % 3 !== 0;
 		},
+		useHeal() {
+			return this.playerHealth >= 100;
+		},
+		monsterHealAboweZero() {
+			return this.monsterHealth > 0;
+		},
+		palyerHealAboweZero() {
+			return this.playerHealth > 0;
+		},
 	},
 	watch: {
 		playerHealth(value) {
