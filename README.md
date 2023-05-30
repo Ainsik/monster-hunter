@@ -1,6 +1,6 @@
 # Monster Hunter Vue Game
 
-This is a simple Vue.js game called "Monster Hunter." It is a text-based adventure game where players go on quests to hunt down and defeat various monsters.
+This is a simple Vue.js game called "Monster Hunter." It is a battle game one vs one.
 
 ## Getting Started
 
