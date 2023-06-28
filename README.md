@@ -31,11 +31,3 @@ To run the game locally, follow these steps:
 5. The outcome of each action depends on your decision-making skills and the monster's strength. Adapt your strategy as the battle progresses.
 
 6. Continue battling until you defeat the monster or your HP reaches zero.
-
-## License
-
-The Monster Hunter Vue Game is open-source and released under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Acknowledgments
-
-The game was developed using Vue.js, a progressive JavaScript framework. Special thanks to the Vue.js community for their contributions and support.
