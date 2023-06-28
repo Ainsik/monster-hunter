@@ -8,12 +8,12 @@ To run the game locally, follow these steps:
 
 1. Clone the repository to your local machine:  
    ```
-   git clone git@github.com:Ainsik/vue-battle-game.git
+   git clone git@github.com:Ainsik/monster-hunter.git
    ```
 
 2. Navigate to the project directory:  
    ```
-   cd monster-hunter-vue
+   cd monster-hunter
    ```
 
 3. Open your web browser to play the game.
