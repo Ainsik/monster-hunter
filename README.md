@@ -2,7 +2,7 @@
 
 This is a simple Vue.js game called "Monster Hunter." It is a one-on-one battle game where players engage in thrilling combat against powerful monsters.
 
-### [Demo](monster-hunter-inky.vercel.app)
+### [Demo](https://monster-hunter-inky.vercel.app/)
 
 ## Getting Started
 
